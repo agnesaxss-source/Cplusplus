@@ -20,5 +20,14 @@ void main()
 	cout << "\tHobby:  \t\t\tC++\n";
 	cout << ".....................................................";
 	cout << ".....................................................";
+	cout << "\n";
+	
+	float discount = 0.05;
+	float cost = 80.99;
+	int count = 4;
+
+	cout << "Enter cost of product : ";
+	cin >> cost;
+
 }
 
