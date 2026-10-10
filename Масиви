@@ -1,0 +1,127 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+int main()
+{
+    // int arr[10];
+    // long long product = 1;
+
+    // cout << "Enter 10 numbers:\n";
+
+    // for (int i = 0; i < 10; i++)
+    // {
+    //     cin >> arr[i];
+    // }
+
+    // cout << "Array: ";
+
+    // for (int i = 0; i < 10; i++)
+    // {
+    //     cout << arr[i] << " ";
+    //     product = product * arr[i];
+    // }
+
+    // cout << "\nProduct: " << product << endl;
+
+
+
+    // int arr[7];
+    // int positive = 0;
+    // int negative = 0;
+
+    // srand(time(0));
+
+    // for (int i = 0; i < 7; i++)
+    // {
+    //     arr[i] = rand() % 63 - 12;
+    // }
+    // cout << "Array: ";
+
+    // for (int i = 0; i < 7; i++)
+    // {
+    //     cout << arr[i] << " ";
+
+    //     if (arr[i] > 0)
+    //     {
+    //         positive++;
+    //     }
+    //     if (arr[i] < 0)
+    //     {
+    //         negative++;
+    //     }
+    // }
+    // cout << "\nPositive: " << positive << endl;
+    // cout << "Negative: " << negative << endl;
+
+
+
+    // long arr[7] = {5, 8, 12, 7, 20, 3, 10};
+    // long sum = 0;
+    // cout << "Array: ";
+
+    // for (int i = 0; i < 7; i++)
+    // {
+    //     cout << arr[i] << " ";
+
+    //     if (arr[i] % 2 == 0)
+    //     {
+    //         sum = sum + arr[i];
+    //     }
+    // }
+
+    // cout << "\nSum of even numbers: " << sum << endl;
+
+
+
+    // int arr[10];
+    // int number = 2;
+    // for (int i = 0; i < 10; i++)
+    // {
+    //     arr[i] = number;
+    //     number = number * 2;
+    // }
+    // cout << "Direct order:\n";
+
+    // for (int i = 0; i < 10; i++)
+    // {
+    //     cout << arr[i] << " ";
+    // }
+    // cout << "\nReverse order:\n";
+
+    // for (int i = 9; i >= 0; i--)
+    // {
+    //     cout << arr[i] << " ";
+    // }
+    // cout << endl;
+    
+    
+
+    int arr[10];
+    cout << "Enter 10 numbers:\n";
+    for (int i = 0; i < 10; i++)
+    {
+        cin >> arr[i];
+    }
+
+    for (int i = 0; i < 10; i++)
+    {
+        if (arr[i] < 0)
+        {
+            arr[i] = arr[i] * -1;
+        }
+    }
+    cout << "New array: ";
+
+    for (int i = 0; i < 10; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+    
+    
+    
+    
+    return 0;
+}
