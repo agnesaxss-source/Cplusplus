@@ -1,0 +1,115 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // int a, b, temp;
+    // cout << "Enter first number: ";
+    // cin >> a;
+    // cout << "Enter second number: ";
+    // cin >> b;
+
+    // if (a != b)
+    // {
+    //     temp = a;
+    //     a = b;
+    //     b = temp;
+    // }
+    // cout << "a = " << a << endl;
+    // cout << "b = " << b << endl;
+
+
+    // int a;
+    // int first, middle, last, sum;
+    // cout << "Enter number from 100 to 999: ";
+    // cin >> a;
+    // if (a > 100 && a < 999)
+    // {
+    //     first = a / 100;
+    //     middle = (a / 10) % 10;
+    //     last = a % 10;
+
+    //     sum = first + middle + last;
+
+    //     cout << "Number of digits: 3" << endl;
+    //     cout << "Sum of digits: " << sum << endl;
+    //     cout << first << "  " << last << endl;
+    // }
+    // else
+    // {
+    //     cout << "Incorrect number";
+    // }
+
+
+    // int hour, minute, second;
+    // cout << "Enter hours: ";
+    // cin >> hour;
+    
+    // cout << "Enter minutes: ";
+    // cin >> minute;
+
+    // cout << "Enter seconds: ";
+    // cin >> second;
+
+    // if (hour >= 0 && hour <= 23 &&
+    //     minute >= 0 && minute <= 59 &&
+    //     second >= 0 && second <= 59)
+    // {
+    //     cout << "Time is correct";
+    // }
+    // else
+    // {
+    //     cout << "Time is incorrect";
+    // }
+
+
+    // int hour;
+    // cout << "Enter hour: ";
+    // cin >> hour;
+
+    // if (hour >= 0 && hour < 6)
+    // {
+    //     cout << "Good night";
+    // }
+    // else if (hour >= 6 && hour < 12)
+    // {
+    //     cout << "Good morning";
+    // }
+    // else if (hour >= 12 && hour < 18)
+    // {
+    //     cout << "Good day";
+    // }
+    // else if (hour >= 18 && hour <= 23)
+    // {
+    //     cout << "Good evening";
+    // }
+    // else
+    // {
+    //     cout << "Incorrect hour";
+    // }
+    
+    int a, b, c, min;
+    cout << "Enter first number: ";
+    cin >> a;
+
+    cout << "Enter second number: ";
+    cin >> b;
+
+    cout << "Enter third number: ";
+    cin >> c;
+
+    min = a;
+    if (b < min)
+    {
+        min = b;
+    }
+    if (c < min)
+    {
+        min = c;
+    }
+    cout << "Minimum: " << min << endl;
+    
+    
+    
+    return 0;
+}
