@@ -1,0 +1,145 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // int country;
+
+    // cout << "Ukraine - press 1\n";
+    // cout << "Poland - press 2\n";
+    // cout << "Canada - press 3\n";
+    // cout << "Germany - press 4\n";
+    // cout << "France - press 5\n";
+
+    // cout << "Choose country: ";
+    // cin >> country;
+
+    // switch (country)
+    // {
+    //     case 1:
+    //         cout << "Capital: Kyiv";
+    //         break;
+
+    //     case 2:
+    //         cout << "Capital: Warsaw";
+    //         break;
+
+    //     case 3:
+    //         cout << "Capital: Ottawa";
+    //         break;
+
+    //     case 4:
+    //         cout << "Capital: Berlin";
+    //         break;
+
+    //     case 5:
+    //         cout << "Capital: Paris";
+    //         break;
+
+    //     default:
+    //         cout << "Incorrect number";
+    // }
+
+
+    // int day;
+    // cout << "Enter day number (1-7): ";
+    // cin >> day;
+
+    // if (day == 6 || day == 7)
+    // {
+    //     cout << "It is a weekend";
+    // }
+    // else if (day >= 1 && day <= 5)
+    // {
+    //     cout << "It is a working day";
+    // }
+    // else
+    // {
+    //     cout << "Incorrect day number";
+    // }
+
+
+
+    // int direction;
+    // cout << "North - 1\n";
+    // cout << "South - 2\n";
+    // cout << "West - 3\n";
+    // cout << "East - 4\n";
+
+    // cout << "Enter direction: ";
+    // cin >> direction;
+    // switch (direction)
+    // {
+    //     case 1:
+    //         cout << "New direction: South";
+    //         break;
+
+    //     case 2:
+    //         cout << "New direction: North";
+    //         break;
+
+    //     case 3:
+    //         cout << "New direction: East";
+    //         break;
+
+    //     case 4:
+    //         cout << "New direction: West";
+    //         break;
+
+    //     default:
+    //         cout << "Incorrect direction";
+    // }
+
+
+
+    // int animal;
+    // cout << "1 - Giraffe\n";
+    // cout << "2 - Eagle\n";
+    // cout << "3 - Lion\n";
+    // cout << "4 - Cow\n";
+    // cout << "5 - Wolf\n";
+    // cout << "6 - Elephant\n";
+    // cout << "7 - Tiger\n";
+
+    // cout << "Choose animal: ";
+    // cin >> animal;
+
+    // switch (animal)
+    // {
+    //     case 1:
+    //         cout << "Giraffe - herbivore";
+    //         break;
+
+    //     case 2:
+    //         cout << "Eagle - predator";
+    //         break;
+
+    //     case 3:
+    //         cout << "Lion - predator";
+    //         break;
+
+    //     case 4:
+    //         cout << "Cow - herbivore";
+    //         break;
+
+    //     case 5:
+    //         cout << "Wolf - predator";
+    //         break;
+
+    //     case 6:
+    //         cout << "Elephant - herbivore";
+    //         break;
+
+    //     case 7:
+    //         cout << "Tiger - predator";
+    //         break;
+
+    //     default:
+    //         cout << "Incorrect animal number";
+    // }
+    
+    
+    
+    
+
+    return 0;
